@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="wrapper">
+    <h2>ADVICE #{{ advice?.slip?.id }}</h2>
+
+    <div class="text-div">
+      <h1>{{ advice?.slip?.advice }}</h1>
+    </div>
+
+    <img src="../assets/pattern-divider-desktop.svg" alt="divider" />
+
+    <div class="dice-div">
+      <img src="../assets/icon-dice.svg" alt="dice" (click)="newAdvice()" />
+    </div>
+  </div>
+</div>
